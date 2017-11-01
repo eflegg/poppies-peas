@@ -1,0 +1,95 @@
+@font-face {
+font-family: 'Pacifico-Regular';
+src: url('fonts/Pacifico-Regular.ttf'); 
+
+
+}
+@font-face {
+font-family: 'OpenSans-Light';
+src: url('fonts/OpenSans-Light.ttf'); 
+}
+
+@font-face {
+font-family: 'OpenSans-Regular';
+src: url('fonts/OpenSans-Regular.ttf'); 
+}
+
+body {
+	background-color: #faebd7;
+}
+
+h1 {
+	font-family: 'Pacifico-Regular', cursive;
+}
+
+
+.nav{
+    list-style:none;
+    margin:auto;
+    padding:0;
+    text-align:center;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 5px;
+    background-color: #faebd7;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    font-family: OpenSans-Regular;
+    color: black;
+}
+
+h1 {
+    max-width: 30%;
+    margin:auto;
+    margin-top: 70px;
+    text-align: center       
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.date {
+    float: left;
+    background-color: #b3f2d0;
+    text-align: center;
+    padding: 2px;
+}
+
+.date p {
+    font-family: OpenSans-Light;
+    font-size:14px;
+}
+
+.post{
+    clear:left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post img {
+    max-width: 90%;
+}
+
+.post h2 {
+    font-family: OpenSans-Light;
+}
+.post p {
+    font-family: OpenSans-Light;
+
+}
+
+
+
+
+
